@@ -1,0 +1,1705 @@
+/*ＵＴＦ８*/
+/***********************/
+/* main css properties */
+/***********************/
+
+@charset "utf-8";
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.scrollXY {
+    overflow: scroll;
+}
+
+.block {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.none {
+    list-style-type: none;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w99 {
+    width: 99%;
+}
+
+.flameBody {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.flameLeft {
+    float: left;
+    margin-left: 5px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.flameRight {
+    height: 100%;
+}
+
+.separator {
+    border-top: 3px solid green;
+}
+
+.menu {
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #C2C1C0;
+    border-top: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.menu div {
+    text-wrap: none;
+    margin-top: 2px;
+    font-size: 16;
+}
+
+.menuBarInactive {
+    margin-top: 5px;
+    font-size: 16;
+    padding: 5px;
+    background-color: #2D9016;
+    color: #ffffff;
+    border-bottom: 1px solid #3DA726;
+    border-radius: 0px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.menuBarActive {
+    margin-top: 5px;
+    font-size: 16;
+    padding: 5px;
+    background-color: #51CA36;
+    color: #ffffff;
+    border-bottom: 1px solid #3DA726;
+    border-radius: 0px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.menuBarActive a:link {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.menuBarActive a:visited {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.menuBarActive a:hover {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.menuBarActive a:active {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.menuBarInactive a:link {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.menuBarInactive a:visited {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.menuBarInactive a:hover {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.menuBarInactive a:active {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.menu a:link {
+    text-decoration: none;
+    color: #660000;
+}
+
+.menu a:visited {
+    text-decoration: none;
+    color: #660000;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.menu a:active {
+    text-decoration: none;
+    color: limegreen;
+}
+
+/********************************************************************/
+/*  Alignment     文字、画像の位置												          */
+/********************************************************************/
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marginCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.vtop {
+    vertical-align: top;
+}
+
+.vbottom {
+    vertical-align: bottom;
+}
+
+.vmiddle {
+    vertical-align: middle;
+}
+
+/**********************************************/
+/*  Read Only                                 */
+/**********************************************/
+.readonly {
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+/********************************************************************/
+/*  IME JAPANESE ON/OF    IMEの日本語 on/off モード				          */
+/********************************************************************/
+input.imeOn {
+    ime-mode: active;
+}
+
+input.imeOff {
+    ime-mode: inactive;
+}
+
+textarea.imeOn {
+    ime-mode: active;
+}
+
+textarea.imeOff {
+    ime-mode: inactive;
+}
+
+/************************************************/
+/*  TABEL 関連																  */
+/************************************************/
+.tblFix {
+    table-layout: fixed;
+    empty-cells: show;
+}
+
+.tblAuto {
+    table-layout: auto;
+    empty-cells: show;
+}
+
+/************************************************/
+/*  フォントカラー														  */
+/************************************************/
+/*白黒*/
+.white {
+    color: white;
+}
+
+/*  白*/
+.gainsboro {
+    color: gainsboro;
+}
+
+/*	シルバーよりも薄い */
+.silver {
+    color: silver;
+}
+
+/*	グレーよりも薄い */
+.gray {
+    color: gray;
+}
+
+/*	グレー */
+.dimgray {
+    color: dimgray;
+}
+
+/*	グレーよりも濃い */
+/*赤*/
+.red {
+    color: red;
+}
+
+.tomato {
+    color: tomato;
+}
+
+/*トマト	*/
+.darkred {
+    color: darkred;
+}
+
+.darkorange {
+    color: darkorange;
+}
+
+.maroon {
+    color: maroon;
+}
+
+/*緑*/
+.olive {
+    color: olive;
+}
+
+.teal {
+    color: teal;
+}
+
+/*青*/
+.blue {
+    color: blue;
+}
+
+/*  青*/
+.navy {
+    color: navy;
+}
+
+/*  ネービーブルー: 濃い青*/
+.lavender {
+    color: lavender;
+}
+
+/*  ラベンダー:   薄い青色*/
+.aliceblue {
+    color: aliceblue;
+}
+
+/*	ラベンダーより薄い青色*/
+.lightsteelblue {
+    color: lightsteelblue;
+}
+
+/*  ラベンダーより濃い青色*/
+.steelblue {
+    color: steelblue;
+}
+
+.darkslategray {
+    color: darkslategray;
+}
+
+.LightNavy {
+    color: #225684;
+}
+
+/*黄色*/
+.limelight {
+    color: #fff799;
+}
+
+/*  ライムライト :薄い黄色？ 薄いオレンジ？ 薄い tan*/
+/*紫*/
+.purple {
+    color: purple;
+}
+
+/*  紫*/
+.plum {
+    color: plum;
+}
+
+/*  プラム :薄い紫*/
+.orchid {
+    color: orchid;
+}
+
+/*  オーキット:   薄い紫*/
+.mediumpurple {
+    color: mediumpurple;
+}
+
+/*  オーキットよりちょっと濃い紫*/
+.blueviolet {
+    color: blueviolet;
+}
+
+/*  青が濃い紫	*/
+.darkorchid {
+    color: darkorchid;
+}
+
+.indigo {
+    color: indigo;
+}
+
+/*  紺に近い紫	*/
+
+/************************************************/
+/*  バックグランドカラー											  */
+/************************************************/
+/*白黒*/
+.bggray {
+    background-color: gray;
+}
+
+/*	グレー */
+.bggainsboro {
+    background-color: gainsboro;
+}
+
+/*	シルバーよりも薄い */
+.bgwhite {
+    background-color: White;
+}
+
+/*  白*/
+.bgblack {
+    background-color: black;
+}
+
+/*  黒*/
+/*赤*/
+.bgpink {
+    background-color: pink;
+}
+
+/*  ピンク*/
+.bgtomato {
+    background-color: tomato;
+}
+
+/*  トマト*/
+/*緑*/
+.bglightgreen {
+    background-color: lightgreen;
+}
+
+.bgteal {
+    background-color: teal;
+}
+
+/*	暗緑色がかった青色*/
+.bgGreen {
+    background-color: #9CFF9E;
+}
+
+.bgLGreen {
+    background-color: #CFFFCD;
+}
+
+.bgSLGreen {
+    background-color: #EFFEF5;
+}
+
+/*青*/
+.bglightsteelblue {
+    background-color: lightsteelblue;
+}
+
+/*  ラベンダーより濃い青色*/
+.bglavender {
+    background-color: lavender;
+}
+
+/*  ラベンダー:   薄い青色*/
+.bgaliceblue {
+    background-color: aliceblue;
+}
+
+/*	ラベンダーより薄い青色*/
+.bghoneydew {
+    background-color: honeydew;
+}
+
+/*  ラベンダーよりもっと薄い青色*/
+.bgblue {
+    background-color: blue;
+}
+
+.bgaquamarine {
+    background-color: aquamarine;
+}
+
+.bgLBlue {
+    background-color: #F7FBFF;
+}
+
+/*黄色*/
+.bglimelight {
+    background-color: #fff799;
+}
+
+.bggold {
+    background-color: gold;
+}
+
+/*紫*/
+.bgplum {
+    background-color: plum;
+}
+
+/*茶色*/
+.bglinen {
+    background-color: linen;
+}
+
+/*  麻色*/
+.bgtan {
+    background-color: tan;
+}
+
+/*	黄褐色 :薄茶、肌色に近い*/
+.bgbeige {
+    background-color: beige;
+}
+
+/*	ベージュ*/
+.bglightgoldenrodyellow {
+    background-color: lightgoldenrodyellow;
+}
+
+/************************************************/
+/*  ボーダーカラー	      										  */
+/************************************************/
+/*白黒*/
+.borderblack {
+    border: 1px solid #000000;
+}
+
+.bordergray {
+    border: 1px solid gray;
+}
+
+.bordersilver {
+    border: 1px solid silver;
+}
+
+.borderwhite {
+    border: 1px solid white;
+}
+
+/*赤*/
+.borderdarkorange {
+    border: 1px solid darkorange;
+}
+
+.borderorange {
+    border: 1px solid orange;
+}
+
+.borderred {
+    border: 1px solid red;
+}
+
+/*緑*/
+.borderlimelight {
+    border: 1px solid #fff799;
+}
+
+.borderGreen {
+    border: 1px solid #60FFA0;
+}
+
+/*青*/
+.borderblue {
+    border: 1px solid blue;
+}
+
+.borderlavender {
+    border: 1px solid lavender;
+}
+
+.borderlightsteelblue {
+    border: 1px solid lightsteelblue;
+}
+
+.bordernavy {
+    border: 1px solid navy;
+}
+
+/*紫*/
+.borderorchid {
+    border: 1px solid orchid;
+}
+
+.borderplum {
+    border: 1px solid plum;
+}
+
+/************************************************/
+/*  ボーダー角丸コーナー   										  */
+/************************************************/
+.rad5 {
+    border-radius: 5px;
+}
+
+.rad10 {
+    border-radius: 10px;
+}
+
+.radT5 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.radT10 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.radB5 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.radB10 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/**********************************************/
+/*  Link Color		リンクカラー                */
+/**********************************************/
+/*--------------------------------------------------------------------*/
+.linkMaroonOrange a:link {
+    text-decoration: none;
+    color: maroon;
+}
+
+.linkMaroonOrange a:visited {
+    text-decoration: none;
+    color: maroon;
+}
+
+.linkMaroonOrange a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.linkWhiteOrange a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.linkWhiteOrange a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.linkWhiteOrange a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.linkNavyOrange a:link {
+    text-decoration: none;
+    color: navy;
+}
+
+.linkNavyOrange a:visited {
+    text-decoration: none;
+    color: navy;
+}
+
+.linkNavyOrange a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+/**********************************************/
+/*  Font フォント 関連                        */
+/**********************************************/
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.ls0 {
+    letter-spacing: 0px;
+}
+
+.ls1 {
+    letter-spacing: 1px;
+}
+
+.ls2 {
+    letter-spacing: 2px;
+}
+
+.ls3 {
+    letter-spacing: 3px;
+}
+
+.ls4 {
+    letter-spacing: 4px;
+}
+
+.ls5 {
+    letter-spacing: 5px;
+}
+
+.lh100 {
+    line-height: 100%;
+}
+
+.lh110 {
+    line-height: 110%;
+}
+
+.lh120 {
+    line-height: 120%;
+}
+
+.lh130 {
+    line-height: 130%;
+}
+
+.lh140 {
+    line-height: 140%;
+}
+
+.lh150 {
+    line-height: 150%;
+}
+
+.lh160 {
+    line-height: 160%;
+}
+
+.lh170 {
+    line-height: 170%;
+}
+
+.lh180 {
+    line-height: 180%;
+}
+
+.lh190 {
+    line-height: 190%;
+}
+
+.lh200 {
+    line-height: 200%;
+}
+
+.lh210 {
+    line-height: 210%;
+}
+
+.lh220 {
+    line-height: 220%;
+}
+
+.lh230 {
+    line-height: 230%;
+}
+
+.lh240 {
+    line-height: 240%;
+}
+
+.lh250 {
+    line-height: 250%;
+}
+
+.lh260 {
+    line-height: 260%;
+}
+
+.lh270 {
+    line-height: 270%;
+}
+
+.lh280 {
+    line-height: 280%;
+}
+
+.lh290 {
+    line-height: 290%;
+}
+
+.lh300 {
+    line-height: 300%;
+}
+
+.font8 {
+    font-size: 8px;
+}
+
+.font9 {
+    font-size: 9px;
+}
+
+.font10 {
+    font-size: 10px;
+}
+
+.font11 {
+    font-size: 11px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font13 {
+    font-size: 13px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font17 {
+    font-size: 17px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font19 {
+    font-size: 19px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font21 {
+    font-size: 21px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font23 {
+    font-size: 23px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font25 {
+    font-size: 25px;
+}
+
+.font26 {
+    font-size: 26px;
+}
+
+.font27 {
+    font-size: 27px;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.font29 {
+    font-size: 29px;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+/**********************************************/
+/*  Margin  Padding   マージン・パディング    */
+/**********************************************/
+.mgnAuto {
+    margin: auto;
+}
+
+.mgn0 {
+    margin: 0px;
+}
+
+.pad0 {
+    padding: 0px;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+.mgnT0 {
+    margin-top: 0px;
+}
+
+.mgnT1 {
+    margin-top: 1px;
+}
+
+.mgnT2 {
+    margin-top: 2px;
+}
+
+.mgnT3 {
+    margin-top: 3px;
+}
+
+.mgnT4 {
+    margin-top: 4px;
+}
+
+.mgnT5 {
+    margin-top: 5px;
+}
+
+.mgnT6 {
+    margin-top: 6px;
+}
+
+.mgnT7 {
+    margin-top: 7px;
+}
+
+.mgnT8 {
+    margin-top: 8px;
+}
+
+.mgnT9 {
+    margin-top: 9px;
+}
+
+.mgnT10 {
+    margin-top: 10px;
+}
+
+.mgnT15 {
+    margin-top: 15px;
+}
+
+.mgnT20 {
+    margin-top: 20px;
+}
+
+.mgnB0 {
+    margin-bottom: 0px;
+}
+
+.mgnB1 {
+    margin-bottom: 1px;
+}
+
+.mgnB2 {
+    margin-bottom: 2px;
+}
+
+.mgnB3 {
+    margin-bottom: 3px;
+}
+
+.mgnB4 {
+    margin-bottom: 4px;
+}
+
+.mgnB5 {
+    margin-bottom: 5px;
+}
+
+.mgnB6 {
+    margin-bottom: 6px;
+}
+
+.mgnB7 {
+    margin-bottom: 7px;
+}
+
+.mgnB8 {
+    margin-bottom: 8px;
+}
+
+.mgnB9 {
+    margin-bottom: 9px;
+}
+
+.mgnB10 {
+    margin-bottom: 10px;
+}
+
+.mgnB15 {
+    margin-bottom: 15px;
+}
+
+.mgnB20 {
+    margin-bottom: 20px;
+}
+
+.mgnL0 {
+    margin-left: 0px;
+}
+
+.mgnL1 {
+    margin-left: 1px;
+}
+
+.mgnL2 {
+    margin-left: 2px;
+}
+
+.mgnL3 {
+    margin-left: 3px;
+}
+
+.mgnL4 {
+    margin-left: 4px;
+}
+
+.mgnL5 {
+    margin-left: 5px;
+}
+
+.mgnL6 {
+    margin-left: 6px;
+}
+
+.mgnL7 {
+    margin-left: 7px;
+}
+
+.mgnL8 {
+    margin-left: 8px;
+}
+
+.mgnL9 {
+    margin-left: 9px;
+}
+
+.mgnL10 {
+    margin-left: 10px;
+}
+
+.mgnL15 {
+    margin-left: 15px;
+}
+
+.mgnL20 {
+    margin-left: 20px;
+}
+
+.mgnR0 {
+    margin-right: 0px;
+}
+
+.mgnR1 {
+    margin-right: 1px;
+}
+
+.mgnR2 {
+    margin-right: 2px;
+}
+
+.mgnR3 {
+    margin-right: 3px;
+}
+
+.mgnR4 {
+    margin-right: 4px;
+}
+
+.mgnR5 {
+    margin-right: 5px;
+}
+
+.mgnR6 {
+    margin-right: 6px;
+}
+
+.mgnR7 {
+    margin-right: 7px;
+}
+
+.mgnR8 {
+    margin-right: 8px;
+}
+
+.mgnR9 {
+    margin-right: 9px;
+}
+
+.mgnR10 {
+    margin-right: 10px;
+}
+
+.mgnR15 {
+    margin-right: 15px;
+}
+
+.mgnR20 {
+    margin-right: 20px;
+}
+
+.padT0 {
+    padding-top: 0px;
+}
+
+.padT1 {
+    padding-top: 1px;
+}
+
+.padT2 {
+    padding-top: 2px;
+}
+
+.padT3 {
+    padding-top: 3px;
+}
+
+.padT4 {
+    padding-top: 4px;
+}
+
+.padT5 {
+    padding-top: 5px;
+}
+
+.padT6 {
+    padding-top: 6px;
+}
+
+.padT7 {
+    padding-top: 7px;
+}
+
+.padT8 {
+    padding-top: 8px;
+}
+
+.padT9 {
+    padding-top: 9px;
+}
+
+.padT10 {
+    padding-top: 10px;
+}
+
+.padT15 {
+    padding-top: 15px;
+}
+
+.padT20 {
+    padding-top: 20px;
+}
+
+.padB0 {
+    padding-bottom: 0px;
+}
+
+.padB1 {
+    padding-bottom: 1px;
+}
+
+.padB2 {
+    padding-bottom: 2px;
+}
+
+.padB3 {
+    padding-bottom: 3px;
+}
+
+.padB4 {
+    padding-bottom: 4px;
+}
+
+.padB5 {
+    padding-bottom: 5px;
+}
+
+.padB6 {
+    padding-bottom: 6px;
+}
+
+.padB7 {
+    padding-bottom: 7px;
+}
+
+.padB8 {
+    padding-bottom: 8px;
+}
+
+.padB9 {
+    padding-bottom: 9px;
+}
+
+.padB10 {
+    padding-bottom: 10px;
+}
+
+.padB15 {
+    padding-bottom: 15px;
+}
+
+.padB20 {
+    padding-bottom: 20px;
+}
+
+.padL0 {
+    padding-left: 0px;
+}
+
+.padL1 {
+    padding-left: 1px;
+}
+
+.padL2 {
+    padding-left: 2px;
+}
+
+.padL3 {
+    padding-left: 3px;
+}
+
+.padL4 {
+    padding-left: 4px;
+}
+
+.padL5 {
+    padding-left: 5px;
+}
+
+.padL6 {
+    padding-left: 6px;
+}
+
+.padL7 {
+    padding-left: 7px;
+}
+
+.padL8 {
+    padding-left: 8px;
+}
+
+.padL9 {
+    padding-left: 9px;
+}
+
+.padL10 {
+    padding-left: 10px;
+}
+
+.padL15 {
+    padding-left: 15px;
+}
+
+.padL20 {
+    padding-left: 20px;
+}
+
+.padR0 {
+    padding-right: 0px;
+}
+
+.padR1 {
+    padding-right: 1px;
+}
+
+.padR2 {
+    padding-right: 2px;
+}
+
+.padR3 {
+    padding-right: 3px;
+}
+
+.padR4 {
+    padding-right: 4px;
+}
+
+.padR5 {
+    padding-right: 5px;
+}
+
+.padR6 {
+    padding-right: 6px;
+}
+
+.padR7 {
+    padding-right: 7px;
+}
+
+.padR8 {
+    padding-right: 8px;
+}
+
+.padR9 {
+    padding-right: 9px;
+}
+
+.padR10 {
+    padding-right: 10px;
+}
+
+.padR15 {
+    padding-right: 15px;
+}
+
+.padR20 {
+    padding-right: 20px;
+}
+
+table.T1 {
+    border-top: 1px solid #3DA726;
+    border-right: 1px solid #3DA726;
+    border-left: 1px solid #3DA726;
+    border-bottom: 1px solid #3DA726;
+}
+
+table.T1 tr {
+    border-top: 1px solid #3DA726;
+    border-right: 1px solid #3DA726;
+    border-left: 1px solid #3DA726;
+    border-bottom: 1px solid #3DA726;
+    padding: .3em 1em;
+}
+
+/*table.T1 .odd tr:nth-child(odd){}*/
+.odd tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table.T1 td {
+    border-top: 1px solid #3DA726;
+    border-right: 1px solid #3DA726;
+    border-left: 1px solid #3DA726;
+    border-bottom: 1px solid #3DA726;
+    padding: .3em 1em;
+}
+
+table.T1 th {
+    border-top: 1px solid #3DA726;
+    border-right: 1px solid #3DA726;
+    border-left: 1px solid #3DA726;
+    border-bottom: 1px solid #3DA726;
+
+    padding: .3em 1em;
+}
+
+table.T1 .bg {
+    font-weight: bold;
+    background: #EFFEF5;
+}
+
+.bgDelLine {
+    background: lightgray;
+}
+
+div.fixbottom {
+    position: absolute;
+    right: 5;
+    bottom: 0;
+    border: 1px dotted blue;
+    border-radius: 5px;
+    text-align: left;
+    width: 20em;
+    background: #f8ffe8; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #f8ffe8 0%, #e3f5ab 33%, #b4e391 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #f8ffe8), color-stop(33%, #e3f5ab), color-stop(100%, #b4e391)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, #f8ffe8 0%, #e3f5ab 33%, #b4e391 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, #f8ffe8 0%, #e3f5ab 33%, #b4e391 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, #f8ffe8 0%, #e3f5ab 33%, #b4e391 100%); /* IE10+ */
+    background: linear-gradient(135deg, #f8ffe8 0%, #e3f5ab 33%, #b4e391 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8ffe8', endColorstr='#b4e391', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    -webkit-box-shadow: 10px 10px 6px -6px #777;
+    -moz-box-shadow: 10px 10px 6px -6px #777;
+    box-shadow: 10px 10px 6px -6px #777;
+}
+
+.tooltip {
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after {
+    background: #333;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+.tooltip:hover:before {
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+div .ClickButton {
+    cursor: pointer;
+    padding: 5px;
+    border: 2px dotted #3DA726;
+    border-radius: 15px;
+    display: inline-block;
+    font-weight: bold;
+    background: #EFFEF5;
+    text-decoration: underline;
+}
+
+.TRBorder {
+    border: 1px solid #3DA726;
+    padding: .3em 1em;
+    font-weight: bold;
+    background: #EFFEF5;
+}
+
+/********************
+ * For Place Holder
+ ********************/
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #999;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999;
+}
+
+/* This is Required for Chrome */
+iframe {
+    border: none;
+}
+
+/********************************************************************
+ * for Progress tracker
+ * must use ol ul number of progress is required for length control
+ ********************************************************************/
+ol.progtrckr {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol.progtrckr li {
+    display: inline-block;
+    text-align: center;
+    line-height: 3em;
+}
+
+ol.progtrckr[data-progtrckr-steps="2"] li {
+    width: 49%;
+}
+
+ol.progtrckr[data-progtrckr-steps="3"] li {
+    width: 33%;
+}
+
+ol.progtrckr[data-progtrckr-steps="4"] li {
+    width: 24%;
+}
+
+ol.progtrckr[data-progtrckr-steps="5"] li {
+    width: 19%;
+}
+
+ol.progtrckr[data-progtrckr-steps="6"] li {
+    width: 16%;
+}
+
+ol.progtrckr[data-progtrckr-steps="7"] li {
+    width: 14%;
+}
+
+ol.progtrckr[data-progtrckr-steps="8"] li {
+    width: 12%;
+}
+
+ol.progtrckr[data-progtrckr-steps="9"] li {
+    width: 11%;
+}
+
+ol.progtrckr li.progtrckr-done {
+    color: black;
+    border-bottom: 4px solid yellowgreen;
+}
+
+ol.progtrckr li.progtrckr-todo {
+    color: silver;
+    border-bottom: 4px solid silver;
+}
+
+ol.progtrckr li:after {
+    content: "\00a0\00a0";
+}
+
+ol.progtrckr li:before {
+    position: relative;
+    bottom: -2.5em;
+    float: left;
+    left: 50%;
+    line-height: 1em;
+}
+
+ol.progtrckr li.progtrckr-done:before {
+    content: "\2713";
+    color: white;
+    background-color: yellowgreen;
+    height: 1.2em;
+    width: 1.2em;
+    line-height: 1.2em;
+    border: none;
+    border-radius: 1.2em;
+}
+
+ol.progtrckr li.progtrckr-todo:before {
+    content: "\039F";
+    color: silver;
+    background-color: white;
+    font-size: 1.5em;
+    bottom: -1.6em;
+}
+
+/********** End of Progress Tracker ********/
+
+/********************************************/
+fieldset {
+    border-color: greenyellow;
+    border-radius: 15px;
+    padding: 5px;
+    /*    float:left;*/
+    display: inline-block;
+    /*    text-align:center;
+        margin-left:auto;
+        margin-right:auto;*/
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+legend {
+    display: inline-block;
+    position: relative;
+
+    font-size: 20px;
+    cursor: pointer;
+}
+
+legend:active {
+    display: inline-block;
+    position: relative;
+
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+#selected {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    top: -20px;
+    left: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: green;
+}
+
+/********************************************/
+/*********** Tab Group Menu *****************/
+/* Set the size and font of the tab widget */
+.tabGroup {
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+    margin: 0 auto;
+    background: none repeat scroll 0 0 white;
+/ / background : none repeat scroll 0 0 #F3F1EB;
+    border: 1px solid #DEDBD1;
+    padding: 10px;
+/ / width : 310 px;
+/ / height : 300 px;
+}
+
+/* Configure the radio buttons to hide off screen */
+.tabGroup > input[type="radio"] {
+    position: absolute;
+    left: -100px;
+    top: -100px;
+}
+
+/* Configure labels to look like tabs */
+.tabGroup > input[type="radio"] + label {
+    /* inline-block such that the label can be given dimensions */
+    display: inline-block;
+
+    /* A nice curved border around the tab */
+    border: 1px solid #DEDBD1;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+
+    /* the bottom border is handled by the tab content div */
+    border-bottom: 0;
+
+    /* Padding around tab text */
+    padding: 5px 10px;
+
+    /* Set the background color to default gray (non-selected tab) */
+    background-color: #ddd;
+}
+
+/* Focused tabs need to be highlighted as such */
+.tabGroup > input[type="radio"]:focus + label {
+    border: 1px dashed #DEDBD1;
+}
+
+/* Checked tabs must be white with the bottom border removed */
+.tabGroup > input[type="radio"]:checked + label {
+    background-color: white;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
+/* The tab content must fill the widgets size and have a nice border */
+.tabGroup > div {
+    display: none;
+    border: 1px solid #DEDBD1;
+    background-color: white;
+    padding: 10px 10px;
+    overflow: auto;
+    margin-top: -1px;
+
+    border-radius: 0 5px 5px 5px;
+    -moz-border-radius: 0 5px 5px 5px;
+    -webkit-border-radius: 0 5px 5px 5px;
+}
+
+/* This matchs tabs displaying to thier associated radio inputs */
+#rad0:checked ~ .tab0, #rad1:checked ~ .tab1, #rad2:checked ~ .tab2, #rad3:checked ~ .tab3, #rad4:checked ~ .tab4, #rad5:checked ~ .tab5, #rad6:checked ~ .tab6, #rad7:checked ~ .tab7, #rad8:checked ~ .tab8, #rad9:checked ~ .tab9, #rad10:checked ~ .tab10, #rad11:checked ~ .tab11, #rad12:checked ~ .tab12, #rad13:checked ~ .tab13, #rad14:checked ~ .tab14, #rad15:checked ~ .tab15, #rad16:checked ~ .tab16, #rad17:checked ~ .tab17, #rad18:checked ~ .tab18 {
+    display: block;
+}
+
+/********************************************/
+/**********************/
+
+.pinkpanel {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #888888;
+    width: 150px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #FFB6C1;
+    padding: 20px 10px 20px 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pinkpanel:hover {
+    background-color: #F0AAB5;
+}
+
+.seagreenpanel {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #888888;
+    width: 150px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #20B2AA;
+    padding: 20px 10px 20px 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.seagreenpanel:hover {
+
+    background-color: #1EA099;
+
+}
+
+.bgReadOnly {
+    background-color: lightgray;
+}
+
+.bgReadOnly input {
+    background-color: lightgray;
+}
+
+.bgReadOnly select {
+    background-color: lightgray;
+}
